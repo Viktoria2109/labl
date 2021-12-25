@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ /* навигационная панель */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #ce0e0e;
+    color: white;}
+
+ /* кнопки все */
+    .btn {
+      display: inline-block; /* Строчно-блочный элемент */
+      background: #6c7277; /* Серый цвет фона */
+      color: #fff; /* Белый цвет текста */
+      padding: 4px 15px; /* Поля вокруг текста */
+      text-decoration: none; /* Убираем подчёркивание */
+      border-radius: 3px; /* Скругляем уголки */
+     }
+  
+     .kat {
+      display: inline-block; /* Строчно-блочный элемент */
+      background: #a52828; /* Красный цвет фона */
+      color: #fff; /* Белый цвет текста */
+      padding: 7px 15px; /* Поля вокруг текста */
+      text-decoration: none; /* Убираем подчёркивание */
+      border-radius: 3px; /* Скругляем уголки */
+     }
+
+     /* поле поиска */
+    .search { width: 450px;
+    height: 20px;
+    }
+
+
+
+
+.sil {text-decoration: none; color:rgb(0, 0, 0); 
+  font-family: sans-serif; margin: auto; font-size: 40px;  
+  font-weight: 1000}
+
+  .sil{ animation-name: poiavilas;
+    animation-duration: 5s;}
+   .sil:hover  {transform: scale(1.1);
+           transition: 2s;}
+
+
+ /* сетка */
+
+  .row {
+    display: grid;
+  grid-template-columns: repeat(5, 20%);
+    margin-left:  15px;
+    margin-right: 50px;
+  }
+  .col {
+    max-width: 100%;
+    flex: 0 0 25%;
+    min-height: 1px;
+    padding-left: 50px;
+    padding-right:15px;
+    margin-bottom:50px;
+  }
+
+ 
+
+
+  /* 3 страница */
+           /* картинка шапки */
+.container {
+  max-width: 1200px;
+  position: relative;
+  text-align: center;
+  
+  color: rgb(0, 0, 0);
+  
+}
+/* текст внутри шапки */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  font-size: 100px;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+}
+/* категории */
+.sil1 {text-decoration: none; color:rgb(0, 0, 0); 
+  font-family: sans-serif; margin: auto; font-size: 20px;  
+  font-weight: 50}
+
+  .row1 {
+    display: grid;
+  grid-template-columns: repeat(4, 10%);
+    margin-left:  15px;
+    margin-right: 50px;
+  }
+
+
